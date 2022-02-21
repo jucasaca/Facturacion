@@ -1,0 +1,1 @@
+INSERT INTO "Detalles" ("IdFactura", "Concepto", "PrecioUnitario", "Cantidad", "TipoIVA") SELECT "ID", "Concepto", "PrecioUnitario", "Cantidad", "IVA" FROM "Facturas"
